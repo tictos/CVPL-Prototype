@@ -1,0 +1,6 @@
+{
+  "name": "Cabinet Vétérinaire Privé Lambanyi - CVPL Guinée",
+  "description": "Site vitrine officiel du Cabinet Vétérinaire Privé de Lambanyi (Kinifi, Conakry, Guinée). Soins vétérinaires, chirurgies, vaccinations, urgences et pharmacie animale.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
