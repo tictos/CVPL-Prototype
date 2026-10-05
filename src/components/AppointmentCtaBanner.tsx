@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, ArrowRight, Phone, MessageSquare, Sparkles } from 'lucide-react';
+import happyOwnerImg from '../assets/images/african_happy_pet_owner_1791217710164.jpg';
 
 interface AppointmentCtaBannerProps {
   onOpenAppointment: () => void;
@@ -60,10 +61,9 @@ export const AppointmentCtaBanner: React.FC<AppointmentCtaBannerProps> = ({ onOp
             <div className="lg:col-span-5 relative">
               <div className="rounded-2xl sm:rounded-3xl overflow-hidden border-4 border-white/20 shadow-2xl aspect-[16/10] bg-slate-900">
                 <img
-                  src="/src/assets/images/african_happy_pet_owner_1791217710164.jpg"
-                  alt="Propriétaire souriante avec son animal de compagnie soigné au cabinet vétérinaire de Lambanyi"
+                  src={happyOwnerImg}
+                  alt="Propriétaire souriante avec son animal de compagnie soigné au cabinet vétérinaire de Lambandji"
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
-                  referrerPolicy="no-referrer"
                 />
               </div>
             </div>

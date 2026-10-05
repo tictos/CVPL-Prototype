@@ -1,4 +1,5 @@
 import React from 'react';
+import logoImg from '../assets/images/logo_cvpl.png';
 
 interface LogoProps {
   className?: string;
@@ -24,8 +25,8 @@ export const CVPLLogo: React.FC<LogoProps> = ({
     <div className={`flex items-center gap-2.5 select-none shrink-0 ${className}`}>
       {/* Official CVPL Guinea Logo Image */}
       <img
-        src="/src/assets/images/logo_cvpl.png"
-        alt="Cabinet Vétérinaire Privé de Lambanyi - CVPL Guinée"
+        src={logoImg}
+        alt="Cabinet Vétérinaire Privé de Lambandji - CVPL Guinée"
         className={`${img} object-contain shrink-0`}
         loading="eager"
       />
@@ -36,7 +37,7 @@ export const CVPLLogo: React.FC<LogoProps> = ({
             Cabinet Vétérinaire
           </span>
           <span className={`font-semibold uppercase tracking-wider text-[#85C83C] ${sub}`}>
-            Lambanyi · Kinifi
+            Lambandji · Kinifi
           </span>
         </div>
       )}

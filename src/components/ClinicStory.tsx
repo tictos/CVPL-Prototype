@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShieldCheck, Award, HeartHandshake, Microscope, Stethoscope, CheckCircle2, MapPin, Clock } from 'lucide-react';
+import clinicExamImg from '../assets/images/african_vet_exam_clinic_1791217700023.jpg';
 
 export const ClinicStory: React.FC = () => {
   return (
@@ -16,10 +17,9 @@ export const ClinicStory: React.FC = () => {
               {/* Primary Photo */}
               <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-900 aspect-[4/3]">
                 <img
-                  src="/src/assets/images/african_vet_exam_clinic_1791217700023.jpg"
-                  alt="Vétérinaire examinant un chiot dans la salle d'examen du Cabinet Vétérinaire Privé de Lambanyi"
+                  src={clinicExamImg}
+                  alt="Vétérinaire examinant un chiot dans la salle d'examen du Cabinet Vétérinaire Privé de Lambandji"
                   className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
-                  referrerPolicy="no-referrer"
                 />
               </div>
 

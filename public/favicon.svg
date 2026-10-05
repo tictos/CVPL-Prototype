@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Background circle for favicon clarity -->
+  <circle cx="60" cy="60" r="58" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <!-- Left Branch of V: Fresh Leaf Green (#85C83C) with Horse Silhouette -->
+  <path d="M 24 20 L 48 20 L 58 85 L 38 85 Z" fill="#85C83C"/>
+  <path d="M 26 42 C 30 32 42 30 48 40 C 46 48 40 52 38 60 C 34 54 28 50 26 42 Z" fill="#FFFFFF"/>
+  <!-- Right Branch of V: Deep Navy Blue (#16325B) with Dog & Cat Silhouettes -->
+  <path d="M 72 20 L 96 20 L 68 85 L 52 85 Z" fill="#16325B"/>
+  <path d="M 66 48 C 62 46 60 50 64 54 C 68 58 70 65 74 70 C 78 74 82 70 84 64 C 80 56 74 50 66 48 Z" fill="#FFFFFF"/>
+  <path d="M 76 68 C 74 65 78 62 82 64 C 86 67 88 75 92 77 C 94 79 90 84 86 82 C 80 80 76 75 76 68 Z" fill="#85C83C"/>
+  <!-- Letters CVPL -->
+  <text x="32" y="105" font-family="system-ui, sans-serif" font-weight="900" font-size="20" fill="#16325B">CV</text>
+  <text x="64" y="105" font-family="system-ui, sans-serif" font-weight="900" font-size="20" fill="#85C83C">PL</text>
+</svg>

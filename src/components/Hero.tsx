@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, Phone, Award, ShieldCheck, Heart, ArrowRight, Play, CheckCircle2 } from 'lucide-react';
+import heroVetImg from '../assets/images/african_hero_vet_doctor_1791217688473.jpg';
 
 interface HeroProps {
   onOpenAppointment: () => void;
@@ -99,10 +100,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAppointment }) => {
               {/* Main Photo Frame */}
               <div className="relative rounded-[2.25rem] overflow-hidden border-4 border-white/20 shadow-2xl bg-slate-900 aspect-[4/3] sm:aspect-[16/11]">
                 <img
-                  src="/src/assets/images/african_hero_vet_doctor_1791217688473.jpg"
-                  alt="Médecin vétérinaire au Cabinet Vétérinaire Privé de Lambanyi avec un chien et un chat"
+                  src={heroVetImg}
+                  alt="Médecin vétérinaire au Cabinet Vétérinaire Privé de Lambandji avec un chien et un chat"
                   className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
-                  referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0A3B47]/80 via-transparent to-transparent pointer-events-none" />
 

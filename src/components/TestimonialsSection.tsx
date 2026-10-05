@@ -94,13 +94,13 @@ export const TestimonialsSection: React.FC = () => {
             </p>
           </div>
 
-          <div>
+          <div className="w-full sm:w-auto shrink-0">
             <button
               onClick={() => setModalOpen(true)}
-              className="px-5 py-3 bg-[#16325B] hover:bg-[#0D223F] text-white text-xs font-bold rounded-xl shadow transition-all flex items-center gap-2 cursor-pointer"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 bg-[#16325B] hover:bg-[#0D223F] text-white text-xs sm:text-sm font-bold rounded-xl shadow transition-all whitespace-nowrap cursor-pointer"
             >
-              <MessageSquarePlus className="w-4 h-4 text-[#85C83C]" />
-              Partager Votre Avis
+              <MessageSquarePlus className="w-4 h-4 text-[#85C83C] shrink-0" />
+              <span className="whitespace-nowrap">Partager Votre Avis</span>
             </button>
           </div>
         </div>

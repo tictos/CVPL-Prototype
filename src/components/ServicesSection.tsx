@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import petCareImg from '../assets/images/veterinary_dog_cat_care_1791217162878.jpg';
 import { 
   Stethoscope, 
   FlaskConical, 
@@ -221,10 +222,9 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenAppointm
             {/* Showcase Image */}
             <div className="relative rounded-2xl overflow-hidden shadow-lg border-2 border-white mb-6">
               <img
-                src="/src/assets/images/veterinary_dog_cat_care_1791217162878.jpg"
-                alt="Chien et chat en bonne santé au cabinet vétérinaire de Lambanyi"
+                src={petCareImg}
+                alt="Chien et chat en bonne santé au cabinet vétérinaire de Lambandji"
                 className="w-full h-48 object-cover transform hover:scale-105 transition-transform duration-500"
-                referrerPolicy="no-referrer"
               />
             </div>
 
